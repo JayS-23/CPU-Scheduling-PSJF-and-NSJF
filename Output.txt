@@ -1,0 +1,22 @@
+NSJF:
+T1	0	8
+T2	8	12
+T4	12	17
+T3	17	26
+Waiting Time T1: 0
+Waiting Time T2: 7
+Waiting Time T3: 15
+Waiting Time T4: 9
+Average Waiting Time: 7.75
+
+PSJF:
+T1	0	1
+T2	1	5
+T4	5	10
+T1	10	17
+T3	17	26
+Waiting Time T1: 9
+Waiting Time T2: 0
+Waiting Time T3: 15
+Waiting Time T4: 2
+Average Waiting Time: 6.50
