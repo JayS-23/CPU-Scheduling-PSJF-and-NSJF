@@ -6,12 +6,10 @@ B00 : B00937799
 Description:
 -------------
 This project implements a CPU scheduler simulation in C. The simulation supports two scheduling algorithms:
-	•	Non-preemptive Shortest-Job-First (NSJF):
-Tasks are scheduled based on the length of their next CPU burst. Once a task is started, it runs to completion without
-being preempted.
-	•	Preemptive Shortest-Job-First (PSJF):
-Tasks are scheduled based on the length of their next CPU burst. If a new task arrives with a CPU burst shorter than
-the remaining burst time of the currently executing task, the current task is preempted.
+• Non-preemptive Shortest-Job-First (NSJF): Tasks are scheduled based on the length of their next CPU burst. Once a task is started, it runs to completion without
+	being preempted.
+• Preemptive Shortest-Job-First (PSJF): Tasks are scheduled based on the length of their next CPU burst. If a new task arrives with a CPU burst shorter than
+	the remaining burst time of the currently executing task, the current task is preempted.
 
 Files Included:
 -------------
